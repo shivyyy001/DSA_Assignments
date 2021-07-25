@@ -79,18 +79,17 @@ void print_details(int initial_size , int increase_by)
       
       // incrementing the current size by increase_by number of elements.
       current_size += increase_by;  
-                            
-    }
-    
+                        
+    }    
 }
 
-
+// Main function.
 int main()
 {
-    // initial size of the array
+    // initial size of the array.
     int initial_size = 8000;   
     
-    // size to be incremented by in each iteration 
+    // size to be incremented by in each iteration. 
     int increase_by = 4000;
 
     // function to print details of every iteration.
