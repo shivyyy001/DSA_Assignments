@@ -10,8 +10,8 @@
 
 
 #include<stdio.h>
-#include <sys/time.h>
-#include <stdlib.h>
+#include <sys/time.h>  // Library which includes time function.
+#include <stdlib.h>    // Standard Library.
 
 // function to sort array using bubble sort.
 void sort_bubble(int array[] , int size)  
@@ -44,8 +44,8 @@ void print_details(int initial_size , int increase_by)
     // initializing current size with initial size.
     int current_size = initial_size; 
   
-    // iterating till current size is lesser than or equals to 32000.
-    while(current_size <= 32000)
+    // iterating till current size is lesser than or equals to 36000.
+    while(current_size <= 36000)
     {
       // creating an array of current_size.
       int array[current_size];
@@ -56,7 +56,7 @@ void print_details(int initial_size , int increase_by)
           // rand() to produce any random element.
           // %current_size to decrease limit to 0 to current_size-1.
           // +1 to make the limit 1 to current_size.
-          array[iterator] = (rand() % current_size) + 1;
+          array[iterator] = (rand() % current_size) + 1; 
       }
       
       // The gettimeofday() function gets the system’s clock time.
