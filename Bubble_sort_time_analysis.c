@@ -1,6 +1,6 @@
 /**
  * Program to analyze run time complexity of Bubble sort.
- * Compilation : gcc Bubble_sort_time_analysis
+ * Compilation : gcc Bubble_sort_time_analysis.c
  * Execution : ./a.out 
  *
  * @Shivansh Kaushal ( 1910990128 )  , 26/7/2021
