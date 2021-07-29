@@ -47,7 +47,7 @@ void push(int ele)
     stack[size] = ele;
 }
 
-// function to get the last added element from stack.
+// function to only get the last added element from stack , but not to remove it .
 int top()
 {
     return stack[size];
@@ -93,7 +93,7 @@ int main()
             push(firstnum + secondnum);
         }
         
-        // if current token is * then add multiply numbers and push in stack.
+        // if current token is * then multiply numbers and push in stack.
         // comparing using strcmp function
         else if(strcmp(str,"*") == 0)
         {
@@ -137,7 +137,7 @@ int main()
 
         else
         {
-            // convert the current token to a number using atoi() function,
+            // else convert the current token to a number using atoi() function,
             // and push the number in stack.
             int answer = atoi(str);
             push(answer);
